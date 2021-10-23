@@ -1,0 +1,50 @@
+body{    
+    text-align: center;
+
+}
+.title{   
+    margin-bottom: 3rem;
+}
+.title::after{
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    margin: 4px auto;
+    background-color: royalblue;
+}
+.testimonials__img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 5px -3px royalblue;
+}
+.testimonials__name{
+    margin-bottom: 0.5rem;
+}
+.testimonials__profesion{
+    font-size: 0.8rem;
+    margin: 0;
+    color: royalblue;
+}
+.testimonials__text{
+    margin: 12px;
+    color: rgb(72, 84, 138);
+}
+.btn__move{    
+    margin: 4px 16px;
+    border: none;
+    font-size: 2rem;
+    color: royalblue;
+    background-color: white;        
+}
+.btn__random{
+    display: block;
+    padding: 4px 16px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    border-color: royalblue blue blue royalblue;
+    color: royalblue;
+    background-color: white;
+}

@@ -1,0 +1,72 @@
+body{
+    display: grid;
+    place-content: center;
+    margin: 0;
+    background-image: url(./assets/desktop-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.windows{
+    position: relative;
+    text-align: center;
+    background-color: #fd998c;
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+}
+.title{
+    margin-top: 24px;
+}
+.btn{
+    margin-top: 12px;
+    padding:5px;
+    text-transform: uppercase;
+    background-color: #674bb1;
+    border:0;
+    border-radius: 4px;
+    color:#fff;
+}
+.modal{
+    position: absolute; 
+    top: 50%;
+    z-index: -9;
+    transform: translatey(-50%);
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #fd998c;
+    opacity: 0;  
+    transition: opacity, 0.5s;
+}
+.modal--show{
+    z-index: 9;
+    opacity: 1;
+}
+.text{
+    font-size: 2rem;
+    line-height: 60px;
+}
+.btn-x{
+    position: absolute;
+    right: 24px;
+    top: 4px;
+    z-index: 0;
+    padding: 8px;
+}
+.btn-x::before,
+.btn-x::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    width: 16px;
+    height: 2px;
+    background-color: red;
+    transform: rotate(45deg);
+}
+.btn-x::after{
+    top: 4px;
+    transform: rotate(-45deg);
+}

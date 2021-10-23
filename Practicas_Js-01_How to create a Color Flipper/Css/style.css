@@ -1,0 +1,33 @@
+body{    
+    display: grid;
+    place-content: center;
+    place-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.color{
+    background-color: Red;
+    transition: background-color, 0.5s;
+}
+.title{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 3vw;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+}
+.title__color{
+    color:red
+}
+
+.button{
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    font-size: 2vw;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;    
+}
